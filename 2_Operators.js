@@ -62,9 +62,9 @@ console.log("a <= 10:", x <= 10);
 let p = true;
 let q = false;
 
-console.log("AND:", p && q);
-console.log("OR:", p || q);
-console.log("NOT:", !p);
+console.log("AND:", p && q); // if any one is false, result is false
+console.log("OR:", p || q);  // if any one is true, result is true
+console.log("NOT:", !p);   // negation of p actually works like true -> false, false -> true
 
 // 5. Ternary Operator -> condition ? expr1 : expr2
 
