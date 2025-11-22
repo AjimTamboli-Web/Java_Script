@@ -2,7 +2,7 @@
 // Scope	    Function	     Block	            Block
 // Reassign	    Yes	              Yes	             No
 // Redeclare	Yes	              No	             No
-// Hoisted	    Yes (Undefined)   Yes (TDZ)       	Yes (TDZ)
+// Hoisted	    Yes (Undefined)   Yes (TDZ)       	Yes (TDZ) (Temporal Dead Zone)
 
 
 
