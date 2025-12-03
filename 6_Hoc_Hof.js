@@ -46,7 +46,7 @@ function withLogger(Component) {
             return () => console.log('Component unmounted:', Component.name);
         }, []);
 
-        return <Component {...props} />;
+        return   Component ;
     };
 }
 
