@@ -26,3 +26,4 @@ const greeting2 = `Hello ${str1}`;
 
 // Escape characters
 const escaped = "Line 1\nLine 2\tTabbed";
+
